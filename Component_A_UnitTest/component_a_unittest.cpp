@@ -77,7 +77,7 @@ void Component_A_UnitTest::testProcedurePow()
     // Performing the needed operation that need to be tested
     int actualValue = testData->cmpA->doPow(baseValue, exponentValue);
 
-    // Verificaiton Step
+    // Verification Step
     QCOMPARE(actualValue, expectedValue);
 
 }
@@ -90,10 +90,10 @@ void Component_A_UnitTest::testProcedurePow_data()
     QTest::addColumn<QString>(EXP);
     QTest::addColumn<QString>(EXPECTED_RESULT);
 
-    // Populating each row i.e. test
+    // Populating each row i.e. test case
     for(TestCaseInfo testCaseInfo : testData->parser->getTestCaseInfoList())
     {
-        // Doesn't accept QString. It needs to be converted to std String
+        // Row identifier doesn't accept QString. It needs to be converted to std String
         QString testCaseID = testCaseInfo.getTestCaseID();
         const char* testCaseID_std = testCaseID.toStdString().c_str();
         QString base = testCaseInfo.getInputData().value(BASE);
