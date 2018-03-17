@@ -12,7 +12,7 @@
  * input and verification data and launching the execution of the tests
  *
  * The Class implementing the test must inherit from QObject
- * in order to be executed by QTest::exec()
+ * in order to be executed by QTest::qExec()
  *
 **/
 
