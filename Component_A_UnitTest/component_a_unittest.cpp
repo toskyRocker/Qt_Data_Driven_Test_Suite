@@ -9,11 +9,7 @@ public:
 
     ~Component_A_UnitTest_Data()
     {
-        if(cmpA)
-            delete cmpA;
-
-        if(parser)
-            delete parser;
+            delete cmpA, parser;
     }
 };
 
