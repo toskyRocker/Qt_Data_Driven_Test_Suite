@@ -1,0 +1,29 @@
+{	
+	"data_list":
+	[
+		{
+			"test_case_id":"test-case-01",
+			"input_data":
+			{
+				"base":"2",
+				"exp":"3"
+			},
+			"verification_data":
+			{
+				"expected_result":"8"
+			}
+		},
+		{
+			"test_case_id":"test-case-02",
+			"input_data":
+			{
+				"base":"3",
+				"exp":"3"
+			},
+			"verification_data":
+			{
+				"expected_result":"27"
+			}
+		}
+	]
+}
