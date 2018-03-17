@@ -1,2 +1,3 @@
 # Qt_Data_Driven_Test_Suite
-Project that shows a fully data driven Test Suite implemented with the Qt Framework
+The main goals are to Show how to execute data driven tests with QtTest,
+Handling input and verification data from a configuration file.
